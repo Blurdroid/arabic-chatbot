@@ -1,0 +1,52 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - duration_timeoff_intent #odoo  custom action name => duration_timeoff
+  - employee_duration_timeoff_intent #odoo  custom action name => employee_duration_timeoff
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+actions:
+  - duration_timeoff           #odoo  intent name => duration_timeoff_intent
+  - employee_duration_timeoff  #odoo  intent name => employee_duration_timeoff
+
+
+entities:
+  - employee  #entity of employees
+
+slots:
+  employee:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: employee
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

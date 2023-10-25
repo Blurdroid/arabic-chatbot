@@ -1,0 +1,117 @@
+version: "3.1"
+
+nlu:
+- intent: duration_timeoff_intent #odoo  custom action name => duration_timeoff
+  examples: |
+    - What is the remaining duration for all employees in the company?
+    - the remaining duration for all employees in the company?
+
+- intent: employee_duration_timeoff_intent #odoo  custom action name => employee_duration_timeoff
+  examples: |
+    - How much remaining time off does[Mitchell Admin](employee) have?
+    - How much remaining time off does[Marc Demo](employee) have?
+    - How much remaining time off does[Ronnie Hart](employee) have?
+    - How much remaining time off does[Anita Oliver](employee) have?
+    - How much remaining time off does[Sharlene Rhodes](employee) have?
+    - How much remaining time off does[Randall Lewis](employee) have?
+    - How much remaining time off does[Jennie Fletcher](employee) have?
+    - How much remaining time off does[Keith Byrd](employee) have?
+    - How much remaining time off does[Walter Horton](employee) have?
+    - How much remaining time off does[Doris Cole](employee) have?
+    - How much remaining time off does[Rachel Perry](employee) have?
+    - How much remaining time off does[Beth Evans](employee) have?
+    - How much remaining time off does[Ernest Reed](employee) have?
+    - How much remaining time off does[Eli Lambert](employee) have?
+    - How much remaining time off does[Abigail Peterson](employee) have?
+    - How much remaining time off does[Audrey Peterson](employee) have?
+    - How much remaining time off does[Toni Jimenez](employee) have?  
+    - How much remaining time off does[Jeffrey Kelly](employee) have?
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

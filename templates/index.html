@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>spectrum chatbot</title>
+</head>
+<body>
+    <h1>Spectrum Chatbot </h1>
+    
+    <form action="/parse" method="POST">
+        <input type="text" name="value1" placeholder="Type Here" required>
+        <button type="submit">Send</button>
+    </form>
+    
+    {% if result %}
+        <h2>Bot Response:</h2>
+        <ul>
+            {% for response in result %}
+                <li>{{ response }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    
+</body>
+</html>
