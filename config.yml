@@ -8,7 +8,6 @@ assistant_id: 20231010-174149-tempered-bucket
 
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
 
 pipeline: null
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
@@ -32,10 +31,28 @@ pipeline: null
 #   - name: FallbackClassifier
 #     threshold: 0.3
 #     ambiguity_threshold: 0.1
+language: "ar"
+
+# pipeline:
+#   - name: "WhitespaceTokenizer"
+#   - name: "RegexFeaturizer"
+#   - name: "CRFEntityExtractor"
+#   - name: "LanguageModelFeaturizer"
+#   - name: "CountVectorsFeaturizer"
+#   - name: "EmbeddingIntentClassifier"
+#   - name: "DIETClassifier"
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
-policies: null
+
+# # No configuration for policies was provided. The following default policies were used to train your model.
+# # If you'd like to customize them, uncomment and adjust the policies.
+# # # See https://rasa.com/docs/rasa/policies for more information.
+# policies: null
+#   - name: "MemoizationPolicy"
+#   - name: "TEDPolicy"
+#   - name: "MappingPolicy"
+policies:
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.
