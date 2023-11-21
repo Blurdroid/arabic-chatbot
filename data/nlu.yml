@@ -10,24 +10,24 @@ nlu:
 
 - intent: employee_duration_timeoff_intent #odoo  custom action name => employee_duration_timeoff
   examples: |
-    - How much remaining time off does [Mitchell Admin](employee) have?
-    - How much remaining time off does [Marc Demo](employee) have?
-    - How much remaining time off does [Ronnie Hart](employee) have?
-    - How much remaining time off does [Anita Oliver](employee) have?
-    - How much remaining time off does [Sharlene Rhodes](employee) have?
-    - How much remaining time off does [Randall Lewis](employee) have?
-    - How much remaining time off does [Jennie Fletcher](employee) have?
-    - How much remaining time off does [Keith Byrd](employee) have?
-    - How much remaining time off does [Walter Horton](employee) have?
-    - How much remaining time off does [Doris Cole](employee) have?
-    - How much remaining time off does [Rachel Perry](employee) have?
-    - How much remaining time off does [Beth Evans](employee) have?
-    - How much remaining time off does [Ernest Reed](employee) have?
-    - How much remaining time off does [Eli Lambert](employee) have?
-    - How much remaining time off does [Abigail Peterson](employee) have?
-    - How much remaining time off does [Audrey Peterson](employee) have?
-    - How much remaining time off does [Toni Jimenez](employee) have?  
-    - How much remaining time off does [Jeffrey Kelly](employee) have?
+    - ما هو رصيد اجازات الموظف [Mitchell Admin](employee)?
+    - ما هو رصيد اجازات الموظف [Marc Demo](employee)?
+    - ما هو رصيد اجازات الموظف [Ronnie Hart](employee) ?
+    - ما هو رصيد اجازات الموظف [Anita Oliver](employee) ?
+    - ما هو رصيد اجازات الموظف [Sharlene Rhodes](employee) ?
+    - ما هو رصيد اجازات الموظف [Randall Lewis](employee) ?
+    - ما هو رصيد اجازات الموظف [Jennie Fletcher](employee) ?
+    - ما هو رصيد اجازات الموظف [Keith Byrd](employee) ?
+    - ما هو رصيد اجازات الموظف [Walter Horton](employee) ?
+    - ما هو رصيد اجازات الموظف [Doris Cole](employee) ?
+    - ما هو رصيد اجازات الموظف [Rachel Perry](employee) ?
+    - ما هو رصيد اجازات الموظف [Beth Evans](employee) ?
+    - ما هو رصيد اجازات الموظف [Ernest Reed](employee) ?
+    - ما هو رصيد اجازات الموظف [Eli Lambert](employee) ?
+    - ما هو رصيد اجازات الموظف [Abigail Peterson](employee) ?
+    - ما هو رصيد اجازات الموظف [Audrey Peterson](employee) ?
+    - ما هو رصيد اجازات الموظف [Toni Jimenez](employee) ?  
+    - ما هو رصيد اجازات الموظف [Jeffrey Kelly](employee) have?
 
 
 - intent: greet
