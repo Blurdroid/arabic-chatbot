@@ -19,6 +19,11 @@ stories:
   - intent: employee_duration_timeoff_intent
   - action: employee_duration_timeoff
 
+- story: chatgpt
+  steps:
+  - intent: chatgpt_intent
+  - action: chatgpt_action
+
 - story: sad path 1
   steps:
   - intent: greet

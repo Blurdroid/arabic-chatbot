@@ -27,8 +27,11 @@ nlu:
     - ما هو رصيد اجازات الموظف [Abigail Peterson](employee) ?
     - ما هو رصيد اجازات الموظف [Audrey Peterson](employee) ?
     - ما هو رصيد اجازات الموظف [Toni Jimenez](employee) ?  
-    - ما هو رصيد اجازات الموظف [Jeffrey Kelly](employee) have?
+    - ما هو رصيد اجازات الموظف [Jeffrey Kelly](employee)?
 
+- intent: chatgpt_intent 
+  examples: |
+    - كيف اتعلم لغه برمجه؟
 
 - intent: greet
   examples: |

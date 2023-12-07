@@ -35,6 +35,8 @@ from typing import Any, Dict, List, Text, Union
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
+import openai
+import requests
 ################################################################################################################################
 
 
@@ -110,8 +112,6 @@ class hr_odoo_employee_duration_timeoff(Action):  #(only one employee[entity]) d
                 dispatcher.utter_message(message)
             else:
                 dispatcher.utter_message(f"{slot_value} is not found in the database")
-
-
 
 
             #check if employee is in the list if not return error

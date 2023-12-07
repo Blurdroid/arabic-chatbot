@@ -9,7 +9,8 @@ intents:
   - mood_unhappy
   - bot_challenge
   - duration_timeoff_intent #odoo  custom action name => duration_timeoff
-  - employee_duration_timeoff_intent #odoo  custom action name => employee_duration_timeoff
+  - employee_duration_timeoff_intent
+  - chatgpt_intent 
 
 responses:
   utter_greet:
@@ -33,7 +34,8 @@ responses:
 
 actions:
   - duration_timeoff           #odoo  intent name => duration_timeoff_intent
-  - employee_duration_timeoff  #odoo  intent name => employee_duration_timeoff
+  - employee_duration_timeoff
+  - chatgpt_action 
 
 
 entities:
