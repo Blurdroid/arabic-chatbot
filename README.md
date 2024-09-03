@@ -1,7 +1,7 @@
+## architecture overview:
+(![Screenshot from 2024-08-16 07-57-54](https://github.com/user-attachments/assets/02450048-dbd2-4f17-96a1-989e024c6cc4)
 
-![plot](![Screenshot from 2024-08-16 07-57-54](https://github.com/user-attachments/assets/02450048-dbd2-4f17-96a1-989e024c6cc4)
-
-## whatsapp screenthot result : 
+## whatsapp screenthot result: 
 ![WhatsApp Image 2024-08-25 at 8 37 46 PM](https://github.com/user-attachments/assets/45763a77-cb08-46a7-96be-21bcf5783fcc)
 
 
