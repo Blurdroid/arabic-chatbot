@@ -124,17 +124,15 @@ Update the `.env` file with your actual credentials.
 The database schema includes tables for storing user information, conversation history, and any additional data relevant to the chatbot's operations. Here is an example schema:
 
 ```sql
-CREATE TABLE users (
+CREATE TABLE employee (
     id SERIAL PRIMARY KEY,
-    whatsapp_id VARCHAR(255) UNIQUE,
-    name VARCHAR(255),
-    last_interaction TIMESTAMP
+    name VARCHAR(255)
 );
 
-CREATE TABLE conversation_history (
+CREATE TABLE department (
     id SERIAL PRIMARY KEY,
     user_id INT REFERENCES users(id),
-    message TEXT,
+    name VARCHAT(50)
     response TEXT,
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -144,23 +142,5 @@ CREATE TABLE conversation_history (
 
 Once the chatbot is running, users can interact with it through WhatsApp. The chatbot can respond to various queries, perform actions based on user input, and retrieve or store data in the PostgreSQL database.
 
-## Deployment
 
-The chatbot can be deployed on various platforms, including:
 
-- **Local Machine**: For development and testing.
-- **Cloud Platforms**: Such as Heroku, AWS, or Google Cloud, for production environments.
-
-Ensure that the necessary environment variables are set up in the cloud environment and that the PostgreSQL database is accessible.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the README file according to your project's specific details and requirements.
